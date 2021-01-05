@@ -62,3 +62,9 @@ function mouseDragged(){
 	function mouseReleased(){
 	chain1.fly()
 	}
+function KeyPressed(){
+if (keyIsDown(UP_ARROW)){
+Matter.Body.applyForce(bob.body,bob.body.position,{x:-85,y:-50});    
+    }
+
+}
