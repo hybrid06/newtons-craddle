@@ -55,13 +55,9 @@ function draw() {
   text(mouseX+","+mouseY,mouseX,mouseY);
  
 }
-function mouseDragged(){
-	Body.setPosition(bob5.body, {x:mouseX, y:mouseY})
-	}
+
 	
-	function mouseReleased(){
-	chain1.fly()
-	}
+	
 function KeyPressed(){
 if (keyIsDown(UP_ARROW)){
 Matter.Body.applyForce(bob.body,bob.body.position,{x:-85,y:-50});    
